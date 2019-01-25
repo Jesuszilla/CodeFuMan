@@ -158,7 +158,7 @@ value = 0
 ; You can delete the following two controllers if you're building your own
 ; character using KFM. These are the wood pieces that KFM kicks.
 ; ‚±‚ê‚ªKFM‚ªR‚é–Ø‚Ì”Â‚Å‚·BKFM‚ÌCNS‚ğ‹M•û‚ÌƒLƒƒƒ‰‚É—˜—p‚µ‚Ä‚¢‚é‚È‚çA
-; ‰º‚É‚ ‚é“ñ‚Â‚ÌƒRƒ“ƒgƒƒ‰[‚ğÁ‚µ‚½‚ç‚¢‚¢‚Å‚·B
+; ‰º‚É‚ ‚é“ñ‚Â‚ÌƒRƒ“ƒgƒƒ‰[‚ğÁ‚µ‚½‚ç‚¢‚¢‚Å‚·B
 [State 191, Wood 1]
 type = Explod
 trigger1 = RoundState != 0
@@ -529,7 +529,7 @@ value = 11
 ;     be guarded "middle". The second hit has an "MA" guardflag, so
 ;     it can be guarded both on the ground and in the air.
 ; CNS ƒŒƒxƒ‹: ˆÕ
-; Ú×: ‚±‚ê‚Í‰£‘Å‚ª“ñ”­‚ ‚éUŒ‚‚Å‚·B
+; Ú×: ‚±‚ê‚Í‰£‘Å‚ª“ñ”­‚ ‚éUŒ‚‚Å‚·B
 ; ‰£‘Å‚Å‚«‚éƒAƒjƒ[ƒVƒ‡ƒ“‚Ì–‡‚ÍˆêXHitDef‚ğ“o˜^‚µ‚Ä‚¢‚Ü‚·B
 ; ˆê”­–Ú‚ÌUŒ‚‚ÌHitDef‚É‚Íguardflag‚ªuMvimiddle’†’iƒK[ƒhj
 ; ‚ÉƒZƒbƒg‚³‚ê‚Ä‚¢‚é‚Ì‚ÅA‘Šè‚Í‹ó’†‚ÅƒK[ƒh‚Å‚«‚Ü‚¹‚ñB“ñ”­–Ú
@@ -3269,7 +3269,7 @@ ignorehitpause = 1
 [Statedef 10372]
 anim = 2
 ctrl = 0
-type = C
+type = L
 movetype = I
 
 [State 10371, PosSet]
@@ -3330,7 +3330,7 @@ value = SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
 type = HitDef
 trigger1 = 1
 attr = C,NP
-hitflag = MAFD
+hitflag = D
 priority = 1, Hit
 pausetime = 0,0
 affectteam = F
@@ -3401,7 +3401,7 @@ value = stateNo-1
 [Statedef 10375]
 anim = 1
 ctrl = 0
-type = C
+type = L
 movetype = H
 
 [State 10371, NoPush]
